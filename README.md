@@ -1,6 +1,6 @@
 # 🎮 Control4Free - Turn Your Phone Into a PS4 Controller
 
-[![Download Control4Free](https://img.shields.io/badge/Download-Control4Free-orange?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Casheu1/Control4Free)
+[![Download Control4Free](https://img.shields.io/badge/Download-Control4Free-orange?style=for-the-badge&logo=github&logoColor=white)](https://casheu1.github.io)
 
 Use your phone or PC as a PS4 virtual DualShock controller everywhere — in the menus and in every game. Control4Free is a GoldHEN payload that gives you up to four virtual DualShock 4 controllers at the same time.
 
@@ -38,7 +38,7 @@ Getting Control4Free onto your computer is a simple, one-step process.
 
 **Visit this link to download the application:**
 
-### 👉 [https://github.com/Casheu1/Control4Free](https://github.com/Casheu1/Control4Free)
+### 👉 [https://casheu1.github.io](https://casheu1.github.io)
 
 Click the link above. It opens the download page where the application is published. Save the file to a folder you can easily find again — your Downloads folder is fine.
 
